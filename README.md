@@ -1,3 +1,12 @@
+# PARA EXECUTAR O PROJETO, INSTALE 
+npm install json-server
+
+Em seguida execute o seguinte comento:
+**npm rum backend**
+
+É necessário pois o projeto usa um servidor backend mockado para obter, atualizar e salvar os dados
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

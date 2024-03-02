@@ -11,6 +11,8 @@ const ProjectForm = ({handleSubmit, btnForm, projectData}) => {
     const [project, setProject] = useState(projectData || {})
 
     useEffect(() => {
+
+        //Está usando o Banco mockado, então é necessário rodar: npm rum backend no terminal para inicial o servidor backend mockado
         fetch("http://localhost:5000/categories", { 
         method: "GET",
         headers: {
@@ -23,15 +25,16 @@ const ProjectForm = ({handleSubmit, btnForm, projectData}) => {
 
 
     const submit = (e) => {
-        e.preventDefault()
-        console.log(project)
-        handleSubmit(project)
+        e.preventDefault()//remove o comportamento do DOM de recarregar a página ao enviar o formulário
+        handleSubmit(project)//método a set executado para lidar com as repostas do formulário. Vem do componente pai, que pode ser um componente de Edição, Criação...
     }
-
+    
+    //Vai adicionar ao objeto project os valores digitados nos campos de input. Repare nos inputs, eles estão invocando esse metodo no onChange
     function handleChange(e) {
         setProject({ ...project, [e.target.name]: e.target.value})
     }
 
+    //Vai adicionar ao objeto project o valor selecionado no input de <Select>. Repare, que ele  está invocando esse metodo no onChange
     function handleCategory(e) {
         setProject({ ...project, category: {
             id: e.target.value,
