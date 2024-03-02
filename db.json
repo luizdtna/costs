@@ -1,0 +1,44 @@
+{
+  "project": [
+    {
+      "id": "4190",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "name": "luiz",
+      "budget": "5000",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "c6f2",
+      "name": "luiz",
+      "budget": "5000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": []
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "infra"
+    },
+    {
+      "id": "2",
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": "3",
+      "name": "Design"
+    },
+    {
+      "id": "4",
+      "name": "Marketing"
+    }
+  ]
+}
