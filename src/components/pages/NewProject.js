@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom'
 
 const NewProject = () => {
 
-    const navegate = useNavigate()
+    const navigate = useNavigate()
 
 
     //o componente ProjectForm irá utilizar da prop handleSubmit para executar essa função. 
@@ -29,7 +29,7 @@ const NewProject = () => {
         .then(
             (data) => {
                 console.log(data)
-                navegate("/project", {message: "Projeto criado com sucesso!!"})
+                navigate("/project", { state: { message: "Projeto criado com sucesso!!" } })
             })
         .catch((err) => {console.log(err)})
     }

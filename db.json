@@ -21,6 +21,72 @@
       },
       "cost": 0,
       "services": []
+    },
+    {
+      "id": "1d63",
+      "name": "Marketing",
+      "budget": "5000",
+      "category": {
+        "id": "4",
+        "name": "Marketing"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "0a20",
+      "name": "Marketing",
+      "budget": "5000",
+      "category": {
+        "id": "4",
+        "name": "Marketing"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "def2",
+      "name": "Marketing",
+      "budget": "5000",
+      "category": {
+        "id": "1",
+        "name": "infra"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "fd1e",
+      "name": "Marketing",
+      "budget": "5000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "d13b",
+      "name": "Marketing",
+      "budget": "5000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "6846",
+      "name": "Novo Projeto",
+      "budget": "3250",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": []
     }
   ],
   "categories": [
