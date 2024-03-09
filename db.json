@@ -1,16 +1,5 @@
 {
-  "project": [
-    {
-      "id": "4190",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "name": "luiz",
-      "budget": "5000",
-      "cost": 0,
-      "services": []
-    },
+  "projects": [
     {
       "id": "c6f2",
       "name": "luiz",
@@ -51,39 +40,6 @@
       "category": {
         "id": "1",
         "name": "infra"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "fd1e",
-      "name": "Marketing",
-      "budget": "5000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "d13b",
-      "name": "Marketing",
-      "budget": "5000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "6846",
-      "name": "Novo Projeto",
-      "budget": "3250",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
       },
       "cost": 0,
       "services": []
