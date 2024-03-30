@@ -1,20 +1,9 @@
 {
   "projects": [
     {
-      "id": "c6f2",
-      "name": "luiz",
-      "budget": "5000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
       "id": "1d63",
       "name": "Marketing",
-      "budget": "5000",
+      "budget": "10000",
       "category": {
         "id": "4",
         "name": "Marketing"
@@ -36,7 +25,7 @@
     {
       "id": "def2",
       "name": "Marketing",
-      "budget": "5000",
+      "budget": "50000",
       "category": {
         "id": "1",
         "name": "infra"

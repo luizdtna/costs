@@ -2,7 +2,7 @@ import {useState, useEffect} from 'react'
 import styles from './Message.module.css'
 
 
-function Messege({type, message}) {
+function Messege({type, message, indexNewMsg}) {
 
     const [visible, setVisible] = useState(false);
     
@@ -18,7 +18,7 @@ function Messege({type, message}) {
 
         return () => clearTimeout(timer)
 
-     }, [message])
+     }, [message, indexNewMsg])
 
 
     return(
